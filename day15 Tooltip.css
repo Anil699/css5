@@ -1,0 +1,45 @@
+body{
+    text-align: center; 
+    margin-top: 30px; 
+    background-color: #848484;
+
+  }
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    margin-top: 200px;
+    border-bottom: 1px dotted black;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    min-width: 350px;
+    background-color: #292929;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    bottom: 120%;
+    left: 30%;
+    font-family: sans-serif;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  input:focus{
+    color: white;
+    background-color: #292929;
+    /* border: 3px solid orange; */
+  }
+  input{
+    box-shadow: 5px 5px 9px #292929;
+  }
+  label{
+    box-shadow: 5px 5px 9px #292929;
+    background-color: #070707;
+    border-radius: 4px;
+    color: #fff;
+    border: #070707;
+    height: 15px;
+    padding: 4px;
+  }

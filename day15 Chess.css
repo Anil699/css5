@@ -1,0 +1,64 @@
+.heading{
+    text-align: center;
+    margin-left: 440px;
+  }
+  a{
+      margin-left: 250px;
+      color: red;
+      font-size: 40px;
+      border: 0px solid black;
+      border-radius: 10px;
+  }
+  .main{
+    height: 800px;
+    width: 800px;
+    border: 2px solid black;
+    margin: auto;
+    
+  }
+  .white{
+    height: 100px;
+    width: 100px;
+    background-color: #eeeed2;
+  }
+  .black{
+    height: 100px;
+    width: 100px;
+    background-color: #769656;
+  }
+  .row{
+    display: flex;
+  }
+  h1{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 20px;
+  
+  }
+ 
+   .h1a:active{
+    color: red;
+   }
+   .h1b:hover{
+    transform: scale(2);
+    color: rgba(50, 47, 47, 0.715);
+   }
+   .white:hover{
+    background-color: #f5ecec;
+   }
+   .black:hover{
+    background-color: #96ba71;
+   }
+   a:link{
+    color: red;
+   }
+   a:hover{
+    color: yellow;
+   }
+   /* a:visited{
+    color: greenyellow;
+   } */
+    a:active{
+      color: orange;
+    }
